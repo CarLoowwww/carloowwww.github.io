@@ -1,33 +1,190 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup</title>
+<html lang="en">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Carlo Lescano – .NET Full-Stack Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <!-- My own stylesheet -->
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header class="startup text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-12 my-auto">
-            <h1 class="text-uppercase faded">
-              <strong>the biggest upset of the year</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-12 my-auto">
-            <button class="btn btn-primary btn-xl">Coming Soon!</button>
-          </div>
+  <header>
+    <h1>John Carlo Lescano</h1>
+    <p>.NET Full-Stack Engineer • 8+ Years of Enterprise Development</p>
+    <p><a href="mailto:johncarlo.lescano@pm.me">johncarlo.lescano@pm.me</a></p>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Experienced .NET Full-Stack Software Engineer with 8+ years in designing,
+        developing, and deploying enterprise-level applications. Skilled in
+        ASP.NET Core/Framework, Blazor, Azure services, and front-end development.
+        Passionate about building scalable solutions and pushing the limits of modern web technology.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <div class="experience-grid">
+        <!-- Canon -->
+        <div class="exp-card">
+          <h3>Senior Developer – Canon Business Service Centre</h3>
+          <p class="date">Dec 2024 – Present | BPO</p>
+          <p class="tech">C#, .NET 3.5, Windows Forms, Azure Services, Azure DevOps, Angular, MSSQL</p>
+          <ul>
+            <li>Enhanced and maintained legacy desktop applications built with Windows Forms and .NET 3.5.</li>
+            <li>Collaborated with business analysts to translate requirements into actionable tasks.</li>
+            <li>Implemented CI/CD pipelines via Azure DevOps for faster, more reliable deployments.</li>
+            <li>Integrated SonarQube into pipelines to enforce quality and reduce technical debt.</li>
+            <li>Coordinated with QA engineers during testing cycles and resolved bugs and regressions.</li>
+            <li>Conducted code reviews and unit testing for stability and maintainability.</li>
+          </ul>
+        </div>
+
+        <!-- Beepo -->
+        <div class="exp-card">
+          <h3>Full-Stack Developer – Beepo, Inc.</h3>
+          <p class="date">Sep 2023 – Sep 2024 | BPO</p>
+          <p class="tech">C#, .NET Core 6 API, Azure Services, Azure DevOps, Blazor, MSSQL, Miro</p>
+          <ul>
+            <li>Developed and consumed REST APIs supporting Blazor client applications.</li>
+            <li>Implemented serverless architecture with Azure Function Apps for backend automation.</li>
+            <li>Leveraged Azure Blob Storage for secure asset and document management.</li>
+            <li>Wrote database scripts for schema updates and data manipulation in MSSQL.</li>
+            <li>Collaborated in Scrum ceremonies including sprint planning and retrospectives.</li>
+            <li>Created diagrams and documentation for new features using Miro.</li>
+          </ul>
+        </div>
+
+        <!-- Manulife -->
+        <div class="exp-card">
+          <h3>Full-Stack Software Engineer – Manulife IT Delivery Center</h3>
+          <p class="date">Oct 2021 – Oct 2022 | Financial Services</p>
+          <p class="tech">C#, .NET Core 3 API, Jenkins, JIRA, Confluence, MSSQL, Apigee API, PCF</p>
+          <ul>
+            <li>Developed APIs using .NET Core and deployed to PCF via Jenkins pipelines.</li>
+            <li>Applied TDD practices, improving test coverage and reducing bugs.</li>
+            <li>Integrated stored procedures and MSSQL functions for high-volume operations.</li>
+            <li>Resolved security findings, SonarQube smells, and other quality issues.</li>
+            <li>Coordinated deployments with Application Security and Change Management teams.</li>
+            <li>Collaborated with architects and business teams during design sessions.</li>
+          </ul>
+        </div>
+
+        <!-- OSS -->
+        <div class="exp-card">
+          <h3>Software Engineer – Organizational Support Services, Inc.</h3>
+          <p class="date">Jan 2019 – Mar 2021 | IT Service</p>
+          <p class="tech">C#, .NET Framework, JIRA, Confluence, MSSQL, MongoDB</p>
+          <ul>
+            <li>Maintained, optimized, and upgraded modules for enterprise applications.</li>
+            <li>Built reusable components and contributed to system architecture discussions.</li>
+            <li>Created advanced SQL and MongoDB scripts for reporting and data cleanup.</li>
+            <li>Led deployments to dev/staging environments and collaborated with QA teams.</li>
+            <li>Supported agile projects across finance, healthcare, and admin platforms.</li>
+          </ul>
+        </div>
+
+        <!-- Kinpo -->
+        <div class="exp-card">
+          <h3>Software Engineer – Kinpo Electronics, Inc.</h3>
+          <p class="date">Oct 2015 – Feb 2018 | Manufacturing</p>
+          <p class="tech">C++, Qt Framework, Mantis Bug Tracker, OpenGL</p>
+          <ul>
+            <li>Ported Windows-based factory automation tools to macOS using Qt Framework.</li>
+            <li>Developed cross-platform UI components and device plugins in C++.</li>
+            <li>Integrated OpenGL modules for device monitoring visualizations.</li>
+            <li>Resolved runtime issues and documented internal developer tools.</li>
+            <li>Supported production releases and improved development workflows.</li>
+          </ul>
         </div>
       </div>
-    </header>
+    </section>
 
-  </body>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Languages:</strong> C#, C++, SQL, JavaScript/TypeScript</p>
+      <p><strong>Frameworks:</strong> ASP.NET Core, .NET Framework, Blazor, Angular</p>
+      <p><strong>Cloud & DevOps:</strong> Azure, Azure DevOps, Jenkins, Serverless</p>
+      <p><strong>Databases:</strong> MSSQL, MongoDB</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>BSc in Information Technology</strong> – De La Salle Lipa (2011–2015)</p>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> John Carlo Lescano – All Rights Reserved
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Handle contact form submission with Formspree AJAX and loading state
+    document.getElementById('contactForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const form = this;
+      const button = form.querySelector('button[type="submit"]');
+      const formMessage = document.getElementById('formMessage');
+      const originalButtonText = button.textContent;
+
+      // Show loading state
+      button.disabled = true;
+      button.textContent = 'Sending...';
+
+      // Replace with your Formspree endpoint
+      const endpoint = 'https://formspree.io/f/xovnlekg';
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          formMessage.textContent = "Thank you for reaching out! I'll get back to you soon.";
+          formMessage.style.display = 'block';
+          form.reset();
+        } else {
+          formMessage.textContent = "Sorry, there was a problem sending your message. Please try again later.";
+          formMessage.style.display = 'block';
+        }
+      } catch (error) {
+        formMessage.textContent = "Sorry, there was a problem sending your message. Please try again later.";
+        formMessage.style.display = 'block';
+      } finally {
+        button.disabled = false;
+        button.textContent = originalButtonText;
+      }
+    });
+  </script>
+</body>
+
 </html>
